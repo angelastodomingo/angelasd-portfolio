@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+
+  <title>Angela SD Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+
+<body>
+  <aside class="sidebar">
+    <img src="angelasdlogo.png" alt="angelasd logo">
+
+      <!-- Hamburger button -->
+  <button class="hamburger" aria-label="Menu">☰</button>
+
+    <ul class="nav-links">
+      <li><a href="pages/pawpal.html">PawPal</a></li>
+      <li><a href="pages/heartlog.html">Heartlog</a></li>
+      <li><a href="Pages/medvisor.html">Medvisor</a></li>
+      <li><a href="Pages/shahrafiq.html">Shah Rafiq</a></li>
+      <li><a href="Pages/junjiito.html">Junji Ito</a></li>
+      <li><a href="Pages/com.html">Commissions</a></li>
+      <li><a href="Pages/pp.html">Personal Projects</a></li>
+      <li><a href="Pages/programming.html">Programming Projects</a></li>
+
+    </ul>
+    <div class="footer-links">
+      <a href="#">About me</a>
+      <a href="https://mail.google.com/mail/?view=cm&to=angela.sdwork@gmail.com">Contact me</a>
+    </div>
+  </aside>
+
+  <main class="portfolio">
+    <div class="portfolio-item">
+      <a href="Pages/pawpal.html">
+        <img src="thumbnails/PawPal.png" alt="PawPal work">
+        <div class="overlay">
+        <h3>PawPal</h3>
+        <p>This is a website and mobile app we made together as a team.</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="portfolio-item">
+    <a href="Pages/heartlog.html">
+      <img src="thumbnails/Heartlog.png" alt="Heartlog work">
+      <div class="overlay">
+        <h3>Heartlog</h3>
+        <p>A wellness tracker that combines journaling and AI insights.</p>
+      </div>
+    </a>
+  </div>
+  
+    <div class="portfolio-item">
+      <a href="Pages/medvisor.html">
+        <img src="thumbnails/Medvisor.png" alt="Medvisor work">
+        <div class="overlay">Medvisor</div>
+      </a>
+    </div>
+
+    
+    <div class="portfolio-item">
+      <a href="Pages/shahrafiq.html">
+        <img src="thumbnails/Shah Rafiq.png" alt="Shah Rafiq work">
+        <div class="overlay">Shah Rafiq</div>
+      </a>
+    </div>
+
+    
+    <div class="portfolio-item">
+      <a href="Pages/junjiito.html">
+        <img src="thumbnails/Junji Ito.png" alt="Junji Ito work">
+        <div class="overlay">Junji Ito</div>
+      </a>
+    </div>
+
+    
+    <div class="portfolio-item">
+      <a href="Pages/com.html">
+        <img src="thumbnails/Commissions.png" alt="Commission work">
+        <div class="overlay">Commissions</div>
+      </a>
+    </div>
+
+    
+    <div class="portfolio-item">
+      <a href="Pages/pp.html">
+        <img src="thumbnails/Personal Projects.png" alt="Personal projects">
+        <div class="overlay">Personal Projects</div>
+      </a>
+    </div>
+
+        <div class="portfolio-item">
+      <a href="Pages/programming.html">
+        <img src="thumbnails/Programming.png" alt="Programming works">
+        <div class="overlay">Programming projects</div>
+      </a>
+    </div>
+
+
+    
+
+  </main>
+
+  <script>
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
